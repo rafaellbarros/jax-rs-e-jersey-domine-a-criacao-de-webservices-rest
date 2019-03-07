@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import lombok.Data;
+import com.thoughtworks.xstream.XStream;
 
 public class Carrinho {
 
@@ -71,6 +71,10 @@ public class Carrinho {
 	
 	public List<Produto> getProdutos() {
 		return produtos;
+	}
+
+	public String toXML() {
+		return new XStream().toXML(this);
 	}
 
 }
