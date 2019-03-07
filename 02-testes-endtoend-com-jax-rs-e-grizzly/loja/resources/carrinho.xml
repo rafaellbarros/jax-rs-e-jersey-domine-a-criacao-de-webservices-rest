@@ -1,0 +1,21 @@
+<carrinho>
+    <produtos>
+        <produto>
+            <id>6237</id>
+            <quantidade>1</quantidade>
+            <nome>PS4 Slim</nome>
+            <preco>2500</preco>
+        </produto>
+        <produto>
+            <id>3467</id>
+            <quantidade>2</quantidade>
+            <nome>Xbox One</nome>
+            <preco>3250</preco>
+        </produto>        
+    </produtos>
+    <total>5750</total>
+    <entrega>
+        <rua>Rua Vergueiro 3185, 8 andar</rua>
+        <cidade>São Paulo</cidade>
+    </entrega>
+</carrinho>
